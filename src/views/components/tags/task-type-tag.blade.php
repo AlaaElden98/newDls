@@ -1,0 +1,1 @@
+<span class="py-1 font-extrabold text-gray-400 text-sm px-2 bg-gray-100 rounded-3xl">{{ $slot }}</span>
