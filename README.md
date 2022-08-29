@@ -18,6 +18,9 @@ The view will be copied to `resources/views`
 `php artisan vendor:publish --provider="Alaa\DLS\Providers\ViewsProvider" --tag="public"` <br/>
 This will update `public` folder.
 
-## Using components
-Check [example project](https://github.com/AlaaElden98/dls-example) to see how to use package's component.
+## Using package
+
+For rendering a view `<x-viewName />` , ex : `<x-orders-list-view />` <br/>
+For using a component `<x-folderName.componentName />` ex: `<x-popup.filter-popup />` <br/>
+Check [example project](https://github.com/AlaaElden98/dls-example) for more. <br/>
 Check the commit history and follow the steps to render your first component.
